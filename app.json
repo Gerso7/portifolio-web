@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Gerson Ferraz",
+    "slug": "portfolio-mobile",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "portfolio",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#08080F",
+    "splash": {
+      "backgroundColor": "#08080F"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.gersonferraz.portfolio"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#08080F"
+      },
+      "package": "com.gersonferraz.portfolio"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
