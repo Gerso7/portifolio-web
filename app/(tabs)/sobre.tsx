@@ -127,9 +127,8 @@ export default function SobreScreen() {
           <SectionHeader title="Bio" icon="person-outline" />
           <Text style={styles.bioText}>{profile.bio}</Text>
           <Text style={[styles.bioText, { marginTop: 10 }]}>
-            Acredito que a interseção entre tecnologia, dados e marketing é onde surgem os
-            produtos mais impactantes. Busco sempre unir raciocínio analítico com execução
-            técnica de qualidade.
+            Acredito que dados bem analisados são a base de qualquer decisão estratégica.
+            Meu foco é extrair insights acionáveis que geram impacto real em negócios e campanhas.
           </Text>
         </View>
 
@@ -163,7 +162,7 @@ export default function SobreScreen() {
             <View style={{ flex: 1 }}>
               <SectionHeader title="Dependências deste App" icon="layers-outline" />
               <Text style={styles.depsSubtitle}>
-                {appDependencies.length} pacotes utilizados para construir este portfólio mobile
+                {appDependencies.length} pacotes utilizados neste app
               </Text>
             </View>
             <Ionicons

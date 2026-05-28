@@ -2,34 +2,33 @@ export const profile = {
   name: 'Gerson Ferraz',
   fullName: 'Gerson Gomes Ferraz Neto',
   initials: 'GF',
-  title: 'Dev Full Stack & Data Enthusiast',
-  subtitle: 'Software · Data Science · Marketing',
+  title: 'Cientista de Dados & Marketing Science',
+  subtitle: 'Data Science · Analytics · Marketing',
   location: 'Recife — PE, Brasil',
   email: 'ferrazgerson0@gmail.com',
   github: 'https://github.com/Gerso7',
-  linkedin: 'https://linkedin.com/in/gersonferraz', // update if needed
-  bio: 'Graduando em Ciência da Computação na UNICAP, apaixonado por desenvolvimento de software, data science e performance marketing. Construo soluções que unem código limpo, dados e resultados mensuráveis.',
+  linkedin: 'https://www.linkedin.com/in/gerson-ferraz-40a0a0290/',
+  bio: 'Graduando em Ciência da Computação na UNICAP, com foco em Data Science, análise de dados e performance marketing. Transformo dados em decisões estratégicas e resultados mensuráveis.',
 };
 
 export const skills = [
-  { name: 'React', icon: '⚛️', color: '#61DAFB', category: 'Frontend' },
-  { name: 'Next.js', icon: '▲', color: '#FFFFFF', category: 'Frontend' },
-  { name: 'TypeScript', icon: 'TS', color: '#3178C6', category: 'Frontend' },
-  { name: 'React Native', icon: '📱', color: '#61DAFB', category: 'Mobile' },
-  { name: 'Expo', icon: '⚡', color: '#B4B4FF', category: 'Mobile' },
-  { name: 'Python', icon: '🐍', color: '#3776AB', category: 'Backend' },
-  { name: 'SQL', icon: '🗄️', color: '#F29111', category: 'Data' },
-  { name: 'Power BI', icon: '📊', color: '#F2C811', category: 'Data' },
-  { name: 'Looker Studio', icon: '📈', color: '#4285F4', category: 'Data' },
+  { name: 'Python', icon: '🐍', color: '#3776AB', category: 'Data Science' },
+  { name: 'SQL', icon: '🗄️', color: '#F29111', category: 'Data Science' },
+  { name: 'Pandas', icon: '🐼', color: '#150458', category: 'Data Science' },
+  { name: 'Power BI', icon: '📊', color: '#F2C811', category: 'Analytics' },
+  { name: 'Looker Studio', icon: '📈', color: '#4285F4', category: 'Analytics' },
+  { name: 'Meta Ads', icon: '🎯', color: '#0082FB', category: 'Marketing' },
+  { name: 'Google Ads', icon: '🔍', color: '#34A853', category: 'Marketing' },
   { name: 'Git', icon: '🌿', color: '#F05032', category: 'Tools' },
+  { name: 'React Native', icon: '📱', color: '#61DAFB', category: 'Tools' },
 ];
 
 export const interests = [
-  { label: 'Desenvolvimento de Software', icon: '💻', color: '#7C3AED' },
   { label: 'Data Science', icon: '🧬', color: '#00D9FF' },
+  { label: 'Machine Learning', icon: '🤖', color: '#7C3AED' },
+  { label: 'Business Intelligence', icon: '📊', color: '#F2C811' },
   { label: 'Performance Marketing', icon: '🚀', color: '#00C896' },
-  { label: 'Machine Learning', icon: '🤖', color: '#FFB347' },
-  { label: 'Open Source', icon: '🌐', color: '#F05032' },
+  { label: 'Análise de Dados', icon: '🔬', color: '#FFB347' },
 ];
 
 export const academicExperience = [
@@ -80,20 +79,20 @@ export const academicExperience = [
 export const professionalExperience = [
   {
     id: '1',
-    role: 'Desenvolvedor & Analista de Dados',
-    company: 'Freelance / Projetos Próprios',
+    role: 'Analista de Dados & Marketing Science',
+    company: 'Projetos Próprios / Freelance',
     period: '2023 — Presente',
     type: 'Autônomo',
     description:
-      'Desenvolvimento de soluções web e mobile com foco em performance e experiência do usuário, combinado à análise de dados para tomada de decisão.',
+      'Análise de dados aplicada a performance marketing, construção de dashboards estratégicos e automação de relatórios para apoio à tomada de decisão.',
     achievements: [
-      'Criação de portfólio web com Next.js + Vercel (SEO e performance otimizados)',
-      'Desenvolvimento de dashboards interativos no Power BI e Looker Studio',
-      'Automação de relatórios e ETL pipelines com Python',
-      'Análise de campanhas e otimização de performance marketing',
+      'Construção de dashboards de performance no Power BI e Looker Studio',
+      'Automação de relatórios e pipelines ETL com Python',
+      'Análise e otimização de campanhas Meta Ads e Google Ads',
+      'Modelagem e consultas avançadas em SQL para extração de insights',
     ],
-    techs: ['React', 'Next.js', 'Python', 'Power BI', 'SQL'],
-    color: '#7C3AED',
+    techs: ['Python', 'SQL', 'Power BI', 'Looker Studio', 'Meta Ads'],
+    color: '#00D9FF',
   },
   // ⬇ Adicione suas experiências profissionais reais aqui
 ];
@@ -127,17 +126,18 @@ export const projects = [
 ];
 
 export const appDependencies = [
-  { name: 'expo', version: '~52.0.36', description: 'Framework e plataforma para apps universais' },
-  { name: 'expo-router', version: '~4.0.17', description: 'Navegação file-based (como Next.js App Router)' },
-  { name: 'react-native', version: '0.76.9', description: 'Framework mobile multiplataforma' },
-  { name: 'react', version: '18.3.2', description: 'Biblioteca base para componentes de UI' },
-  { name: 'react-native-reanimated', version: '~3.16.7', description: 'Animações fluidas com thread nativa' },
-  { name: 'expo-linear-gradient', version: '~14.0.2', description: 'Gradientes nativos de alta performance' },
-  { name: 'expo-haptics', version: '~14.0.0', description: 'Feedback tátil (vibração contextual)' },
-  { name: 'expo-linking', version: '~7.0.4', description: 'Deep linking e abertura de URLs externas' },
-  { name: 'expo-status-bar', version: '~2.0.1', description: 'Controle da barra de status do sistema' },
-  { name: '@expo/vector-icons', version: '^14.0.4', description: 'Biblioteca de ícones (Ionicons, etc.)' },
-  { name: 'react-native-safe-area-context', version: '4.12.0', description: 'Padding seguro para notch e home bar' },
-  { name: 'react-native-screens', version: '~4.1.0', description: 'Otimização de screens com componentes nativos' },
+  { name: 'expo', version: '^54.0.34', description: 'Framework e plataforma para apps universais' },
+  { name: 'expo-router', version: '~6.0.23', description: 'Navegação file-based (como Next.js App Router)' },
+  { name: 'react-native', version: '0.81.5', description: 'Framework mobile multiplataforma' },
+  { name: 'react', version: '19.1.0', description: 'Biblioteca base para componentes de UI' },
+  { name: 'react-native-reanimated', version: '~4.1.1', description: 'Animações fluidas com thread nativa' },
+  { name: 'react-native-worklets', version: '0.5.1', description: 'Motor de worklets para animações nativas' },
+  { name: 'expo-linear-gradient', version: '~15.0.8', description: 'Gradientes nativos de alta performance' },
+  { name: 'expo-haptics', version: '~15.0.8', description: 'Feedback tátil (vibração contextual)' },
+  { name: 'expo-linking', version: '~8.0.12', description: 'Deep linking e abertura de URLs externas' },
+  { name: 'expo-status-bar', version: '~3.0.9', description: 'Controle da barra de status do sistema' },
+  { name: '@expo/vector-icons', version: '^15.0.3', description: 'Biblioteca de ícones (Ionicons, etc.)' },
+  { name: 'react-native-safe-area-context', version: '~5.6.0', description: 'Padding seguro para notch e home bar' },
+  { name: 'react-native-screens', version: '~4.16.0', description: 'Otimização de screens com componentes nativos' },
   { name: 'typescript', version: '^5.3.3', description: 'Tipagem estática para JavaScript' },
 ];

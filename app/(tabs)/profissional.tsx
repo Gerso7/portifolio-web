@@ -169,8 +169,8 @@ export default function ProfissionalScreen() {
           <View style={{ flex: 1 }}>
             <Text style={styles.bannerTitle}>Estudante em tempo integral</Text>
             <Text style={styles.bannerText}>
-              Atualmente cursando Ciência da Computação na UNICAP enquanto desenvolvo
-              projetos práticos e me especializo em Data Science e Marketing.
+              Atualmente cursando Ciência da Computação na UNICAP com foco em
+              Data Science, análise de dados e performance marketing.
             </Text>
           </View>
         </View>
@@ -191,8 +191,8 @@ export default function ProfissionalScreen() {
           <Ionicons name="sparkles-outline" size={24} color={Colors.primaryLight} />
           <Text style={styles.ctaTitle}>Aberto a oportunidades</Text>
           <Text style={styles.ctaText}>
-            Buscando estágios e projetos nas áreas de Desenvolvimento de Software,
-            Data Science e Performance Marketing.
+            Buscando oportunidades nas áreas de Data Science,
+            Analytics e Performance Marketing.
           </Text>
         </View>
 
